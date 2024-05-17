@@ -1,2 +1,2 @@
 # extensions
-Chromeの拡張機能
+自作のChrome拡張機能まとめ
