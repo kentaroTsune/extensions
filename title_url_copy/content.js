@@ -22,7 +22,7 @@ const getSelectedTextAndUrl = function() {
 };
 
 const copyAsMarkdown = function({ selectedText, url }) {
-  const markdownLink = `[${selectedText}](${url})`;
+  const markdownLink = `${selectedText}\n${url}`;
   navigator.clipboard.writeText(markdownLink);
 };
 
